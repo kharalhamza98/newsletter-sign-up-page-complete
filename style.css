@@ -220,14 +220,15 @@ form {
     font-size: 45px;
     font-weight: 700;
     color: #242742;
+    margin-top: 30px;
   }
 
   .listHeader {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .listItem {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .emailLabel,
@@ -236,7 +237,7 @@ form {
   }
 
   .subBtn {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .image {
@@ -252,7 +253,7 @@ form {
   }
 
   .tyPara {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .imgDiv {
@@ -261,6 +262,6 @@ form {
 
   .dismiss {
     margin-top: 250px;
-    font-size: 17px;
+    font-size: 16px;
   }
 }
