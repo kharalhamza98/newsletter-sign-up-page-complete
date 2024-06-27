@@ -52,7 +52,7 @@ body {
   font-size: 16px;
   margin-bottom: 20px;
   position: relative;
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
 .listItem::before {
@@ -63,8 +63,7 @@ body {
   height: 20px;
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  transform: translateX(-200%);
 }
 .rightSide {
   padding: 25px;
@@ -196,4 +195,72 @@ form {
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    background-color: white;
+  }
+
+  .signUpCardContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0%;
+  }
+
+  .leftSide {
+    padding: 30px;
+  }
+
+  .rightSide {
+    padding: 0;
+  }
+  .headerContainer {
+    margin: 10px 0 20px;
+  }
+  .header {
+    font-size: 45px;
+    font-weight: 700;
+    color: #242742;
+  }
+
+  .listHeader {
+    font-size: 17px;
+  }
+
+  .listItem {
+    font-size: 17px;
+  }
+
+  .emailLabel,
+  .emailError {
+    font-size: 14px;
+  }
+
+  .subBtn {
+    font-size: 17px;
+  }
+
+  .image {
+    height: 210px;
+  }
+
+  .bigPic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .tyPara {
+    font-size: 17px;
+  }
+
+  .imgDiv {
+    margin-top: 100px;
+  }
+
+  .dismiss {
+    margin-top: 250px;
+    font-size: 17px;
+  }
 }
