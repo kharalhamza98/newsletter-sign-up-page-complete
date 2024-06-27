@@ -42,6 +42,7 @@ function goBack(e) {
   subBtn.innerText = 'You have already subscribed, thanks!';
   subBtn.style.backgroundColor = '#ff6257';
   subBtn.classList.add('animate__animated', 'animate__shakeX');
+  subBtn.disabled = true;
 }
 subBtn.addEventListener('click', subscribe);
 dismiss.addEventListener('click', goBack);
